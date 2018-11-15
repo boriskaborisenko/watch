@@ -44,24 +44,22 @@ body, html {
 .layer {
   width: 300px;
   height: 300px;
-  position: absolute; }
+  position: absolute;
+  transition: 1s all linear; }
 
 .seconds {
   background: url(public/assets/seconds.svg) center center no-repeat;
   background-size: cover;
-  animation-duration: 60s;
   z-index: 3; }
 
 .minutes {
   background: url(public/assets/minutes.svg) center center no-repeat;
   background-size: cover;
-  animation-duration: 3600s;
   z-index: 2; }
 
 .hours {
   background: url(public/assets/hours.svg) center center no-repeat;
   background-size: cover;
-  animation-duration: 43200s;
   z-index: 1; }
 
 .overlay {

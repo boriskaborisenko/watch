@@ -48,12 +48,13 @@ $h: $w;
    width:$w;
    height:$h;
    position:absolute;
+   transition:1s all linear;
 }
 
 .seconds {
     background: url('../../public/assets/seconds.svg') center center no-repeat;
     background-size: cover;
-    animation-duration: 60s;
+    //animation-duration: 60s;
     //animation: spin 60s linear infinite;
     z-index: 3;
 }
@@ -61,7 +62,7 @@ $h: $w;
 .minutes {
     background:url('../../public/assets/minutes.svg') center center no-repeat;
     background-size: cover;
-    animation-duration: 3600s;
+    //animation-duration: 3600s;
     //animation:spin 3600s linear infinite;
     z-index:2;
 }
@@ -69,7 +70,7 @@ $h: $w;
 .hours{
     background:url('../../public/assets/hours.svg') center center no-repeat;
     background-size: cover;
-    animation-duration: 43200s;
+    //animation-duration: 43200s;
     //animation:spin 43200s linear infinite;
     z-index: 1;
 }
